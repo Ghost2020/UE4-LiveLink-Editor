@@ -1,0 +1,29 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "FaceGood_LiveLink",
+  "Description": "a plugin that will Driving character expression by FaceGood Streamer send data",
+  "Category": "Animation",
+  "CreatedBy": "Ghost",
+  "CreatedByURL": "",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "www.facegood.cc",
+  "CanContainContent": false,
+  "IsBetaVersion": true,
+  "Installed": false,
+  "Modules": 
+  [
+    {
+      "Name": "FaceGood_LiveLinkEditor",
+      "Type": "editor",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "FaceGood_LiveLinkRuntime",
+      "Type": "runtime",
+      "LoadingPhase" : "Default"
+    }
+  ]
+}
